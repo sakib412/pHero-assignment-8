@@ -1,0 +1,12 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.5rem;
+}
+
+@media (max-width: 576px) {
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

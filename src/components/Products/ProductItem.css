@@ -1,0 +1,8 @@
+.product {
+    display: flex;
+}
+
+.card-img {
+    min-height: 15rem;
+    max-height: 15rem;
+}

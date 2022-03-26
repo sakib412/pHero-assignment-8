@@ -1,28 +1,5 @@
-.products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.5rem;
-}
-
-@media (max-width: 576px) {
-    .products {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-}
-
-
-.product {
-    display: flex;
-}
-
-.card-img {
-    min-height: 15rem;
-    max-height: 15rem;
-}
-
 .selected-products {
     background-color: antiquewhite;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 1rem;
 }

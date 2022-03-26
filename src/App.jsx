@@ -27,17 +27,19 @@ function App() {
       setCart([...cart, item])
     }
   }
+
   const onResetCart = () => {
     setMessage('')
     // setCart to empty array
     setCart([])
   }
+
   const onChoose = () => {
     setMessage('')
     // if cart length is not 0
     if (cart.length) {
       const index = Math.floor((Math.random() * (cart.length)))
-      setMessage(`Choiced headphone: ${cart[index].name}`)
+      setMessage(`Buy this one: ${cart[index].name}`)
     } else {
       setMessage('Please add some headphones to cart first.')
     }
