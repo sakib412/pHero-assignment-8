@@ -1,7 +1,8 @@
 import React from 'react'
 import ProductItem from './ProductItem.comp'
 
-const ProductList = ({ items, onAddCart }) => {
+const ProductList = (props) => {
+    const { items, onAddCart } = props
     return (
         <div className="products">
             {items.map(headphone => (
