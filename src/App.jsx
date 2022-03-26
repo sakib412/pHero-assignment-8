@@ -44,7 +44,10 @@ function App() {
     } else {
       setMessage('Please add some headphones to cart first.')
     }
+  }
 
+  const onDelete = (id)=>{
+    setCart(cart.filter(item=> item.id !== id))
   }
 
   return (
@@ -59,7 +62,7 @@ function App() {
         </div>
         <div className="col-md-3 selected-products">
           <h5>Selected headphones</h5>
-          <CartList cart={cart} />
+          <CartList cart={cart} onDelete={onDelete} />
           <button className='btn btn-primary mt-4' onClick={onChoose}>Choose 1 for me</button>
           <button className='btn btn-danger mt-3' onClick={onResetCart}>Reset</button>
           {message ?
