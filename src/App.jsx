@@ -46,8 +46,8 @@ function App() {
     }
   }
 
-  const onDelete = (id)=>{
-    setCart(cart.filter(item=> item.id !== id))
+  const onDelete = (id) => {
+    setCart(cart.filter(item => item.id !== id))
   }
 
   return (
@@ -64,6 +64,7 @@ function App() {
           <h5>Selected headphones</h5>
           <CartList cart={cart} onDelete={onDelete} />
           <button className='btn btn-primary mt-4' onClick={onChoose}>Choose 1 for me</button>
+          <br />
           <button className='btn btn-danger mt-3' onClick={onResetCart}>Reset</button>
           {message ?
             (<p className='my-5 text-danger'>{message}</p>) :
