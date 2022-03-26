@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "AB-1266 Phi TC",
+        "price": 57.00,
+        "image": "images/headphone-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Air Extreme PHD1",
+        "price": 39.87,
+        "image": "images/headphone-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "AH2 Deep Bass",
+        "price": 23.89,
+        "image": "images/headphone-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Phantom Headphones",
+        "price": 76.99,
+        "image": "images/headphone-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Classic Headset",
+        "price": 21.90,
+        "image": "images/headphone-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Aurvana Platinum",
+        "price": 99.99,
+        "image": "images/headphone-6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Here One Wireless Smart Earbuds",
+        "price": 30.00,
+        "image": "images/headphone-7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "3D Stereo Fabric",
+        "price": 69.99,
+        "image": "images/headphone-8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Future Sonics Spectrum Series G10",
+        "price": 54.00,
+        "image": "images/headphone-9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Aircraft Control",
+        "price": 77.90,
+        "image": "images/headphone-10.jpg"
+    }
+]
