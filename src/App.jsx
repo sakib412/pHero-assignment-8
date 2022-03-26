@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import CartList from './components/Cart/CartList.comp';
 import ProductList from './components/Products/ProductList.comp';
+import QuestionList from './components/Questions/QuestionList.comp';
 
 function App() {
   const [headphones, setHeadphones] = useState([])
@@ -66,6 +67,10 @@ function App() {
             null}
 
         </div>
+      </div>
+      <div className="row py-5">
+        <QuestionList />
+
       </div>
     </div>
   );
